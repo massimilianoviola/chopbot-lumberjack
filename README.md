@@ -65,9 +65,9 @@ python chopbot.py
 - **Space**: start the bot after the initial countdown
 - **Esc**: stop the bot at any time
 
-| 🏆 Best Scores | 🎥 Gameplay Video |
-| -------------- | ------------------ |
-| [Best Scores Screenshot (1140)](assets/best_score.png) | [Watch ChopBot take down those trees](assets/gameplay.mp4) |
+| 🏆 Best Score                                         | 🎥 Gameplay Video                                       |
+| :---------------------------------------------------: | :-----------------------------------------------------: |
+| ![Best Scores Screenshot (1140)](assets/best_score.png) | ![Watch ChopBot take down those trees](assets/gameplay.gif) |
 
 ## 🧩 Architecture
 
