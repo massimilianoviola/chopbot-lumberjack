@@ -23,11 +23,11 @@ def get_moves_from_screen(
 
     # Keep only the bottom 40 rows of each block (crops). It is either a branch or sky
     greens = blocks[:, -40:, :]  # shape=(6, 40, 100)
-    print("Greens shape:", greens.shape)
+    # print("Greens shape:", greens.shape)
 
     block_means = greens.mean(axis=(1, 2))  # shape (6,)
     # print for debug to adjust green_thresh, e.g. [202.5, 202.5, 244.4, ...]
-    print("Block mean greens:", block_means)
+    # print("Block mean greens:", block_means)
 
     # Branches actually have a lower green value than the sky
     is_left_branch = block_means < green_thresh
