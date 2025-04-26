@@ -26,6 +26,8 @@ class IOProvider:
             "mon": r.getint("monitor_number"),
         }
 
+        self.key_delay = cfg["bot"].getfloat("key_delay", 0.01)
+
         # Debugging
         dbg = cfg["debug"]
         self.debug = dbg.getboolean("enabled")
@@ -50,12 +52,12 @@ class IOProvider:
 
         return green_channel
 
-    def hit_key(self, key: str, delay: float = 0.01) -> None:
+    def hit_key(self, key: str) -> None:
         """Hit a keyboard key twice, pausing after each tap to give the OS time to process."""
         k = Key.left if key.lower() == "left" else Key.right
         for _ in range(2):
             self.keyboard.tap(k)
-            time.sleep(delay)
+            time.sleep(self.key_delay)
 
 
 if __name__ == "__main__":
