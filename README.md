@@ -1,14 +1,14 @@
-# 🌲🪓 ChopBot for LumberJack Telegram game (best score 1140🔥)
+# 🌲🪓 ChopBot for LumberJack Telegram Game (Best score 1140🔥)
 
 Ready to crush your friends at **LumberJack on Telegram** with a 1000+ score? Configure your capture region, hit Space, and let ChopBot do the rest!
 Soon the leaderboard will be like this:
-- 🥇 ChopBot – 1140 chops
+- 🥇 ChopBot – 1140 chops 🔥
 - 🥈 Your Best Friend – 247 chops
 - 🥉 Your Best Friend #2 – 130 chops
 
 ChopBot captures the game screen, computes the optimal moves in batches, and performs key presses at high speed.
 He is so committed to the game that will keep chopping even when the game is over unless you stop it...
-Needless to say, Chopbot only fears screen lag and slow CPUs. Otherwise: He Came 👨🏼‍💻. He Saw 🖥️. He Chopped 🪓.
+Chopbot only fears screen lag and slow CPUs. Otherwise: He Came 👨🏼‍💻. He Saw 🖥️. He Chopped 🪓.
 
 ![Pipeline](assets/chopbot.png)
 
